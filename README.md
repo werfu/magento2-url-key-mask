@@ -8,7 +8,7 @@ The settings can be changed under Stores Settings, Catalog > Catalog. For produc
 It is obvious this behavior should have been included out of the box inside Magento 2. I will try to have this module change's integrated as a feature submission into the core as soon as it reach a maturity level I'm happy with.
 
 ## Changelog
-See [changelog](changelog.md)
+See [CHANGELOG.md](CHANGELOG.md)
 
 ## License
 This software falls under OSL V3.0, see [LICENSE.txt](LICENSE.txt)
