@@ -1,0 +1,22 @@
+{
+    "name": "werfu/url-key-mask",
+    "description": "Enable Product and Category generation using parametrable string using tokens",
+    "type": "magento2-module",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Maxime Carey",
+            "email": "maxime.carey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Werfu\\UrlKeyMask\\": ""
+        }
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog">
+            <group id="fields_masks">
+                <field id="url_key_mask" translate="label comment" type="text" sortOrder="25" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Mask for URL key</label>
+                    <comment>Use attribute like tokens ex: {{sku}}, {{name}}, {{custom_attribute}}</comment>
+                </field>                
+            </group>
+            <group id="category_fields_masks" translate="label" type="text" sortOrder="91" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Category Fields Auto-Generation</label>
+                <field id="url_key_mask" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Mask for URL key</label>
+                    <comment>Use attribute like tokens ex: {{name}}, {{custom_attribute}}</comment>
+                </field>
+                <!-- TODO: Improve the module add support for Meta tags content auto-generation -->
+                <!-- <field id="meta_title" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Mask for Meta Title</label>
+                    <comment>Use {{name}} as Product Name placeholder</comment>
+                </field>
+                <field id="meta_keyword" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Mask for Meta Keywords</label>
+                    <comment>Use {{name}} as Product Name or {{sku}} as Product SKU placeholders</comment>
+                </field>
+                <field id="meta_description" translate="label comment" type="text" sortOrder="40" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Mask for Meta Description</label>
+                    <comment>Use {{name}} and {{description}} as Product Name and Product Description placeholders</comment>
+                </field>                 -->
+            </group>
+        </section>
+    </system>
+</config>
