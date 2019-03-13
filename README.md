@@ -2,6 +2,7 @@
 This module's goal is to enable the use of mask in the generation of URL keys for both products and categories. The default Magento behavior is to only use the name. Using this module, you can now use entity attributes as tokens.
 
 ## Settings
+![URL keys maks settings](screenshot.png)
 The settings can be changed under Stores Settings, Catalog > Catalog. For products, the field URL Key Mask is available under  the Product Fields Auto-Generation option group. For categories, the field URL Key Mask is available under Category Fields Auto-Generation option group.
 
 ## TODO
