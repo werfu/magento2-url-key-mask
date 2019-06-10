@@ -49,7 +49,7 @@ class CategoryUrlPathGenerator extends \Magento\CatalogUrlRewrite\Model\Category
     public function getUrlKey($category)
     {
         $urlKey = $category->getUrlKey();
-        return $category->formatUrlKey($urlKey === '' || $urlKey === null ? $this->prepareCategoryDefaultUrlKey() : $urlKey);
+        return $category->formatUrlKey($urlKey === '' || $urlKey === null ? $this->prepareCategoryDefaultUrlKey($category) : $urlKey);
     }
 
     /**
